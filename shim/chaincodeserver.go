@@ -4,8 +4,8 @@
 package shim
 
 import (
-	"crypto/tls"
 	"errors"
+	"github.com/fabric-creed/cryptogm/tls"
 
 	"github.com/fabric-creed/fabric-chaincode-go/shim/internal"
 	pb "github.com/fabric-creed/fabric-protos-go/peer"
@@ -15,7 +15,7 @@ import (
 
 // TLSProperties passed to ChaincodeServer
 type TLSProperties struct {
-	//Disabled forces default to be TLS enabled
+	// Disabled forces default to be TLS enabled
 	Disabled bool
 	Key      []byte
 	Cert     []byte

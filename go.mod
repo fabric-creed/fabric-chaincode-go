@@ -12,4 +12,5 @@ require (
 	golang.org/x/net v0.0.0-20190522155817-f3200d17e092 // indirect
 	golang.org/x/sys v0.0.0-20190710143415-6ec70d6a5542 // indirect
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
+	github.com/fabric-creed/cryptogm v0.0.0-20210621021614-9b28f0c0045b
 )

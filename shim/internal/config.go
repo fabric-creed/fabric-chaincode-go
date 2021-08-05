@@ -4,8 +4,8 @@
 package internal
 
 import (
-	"crypto/tls"
-	"crypto/x509"
+	"github.com/fabric-creed/cryptogm/tls"
+	"github.com/fabric-creed/cryptogm/x509"
 	"encoding/base64"
 	"errors"
 	"fmt"
