@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric-chaincode-go/shim/internal"
+	"github.com/fabric-creed/fabric-chaincode-go/shim/internal"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/fabric-creed/grpc/keepalive"

@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-chaincode-go/shim/internal/mock"
+	"github.com/fabric-creed/fabric-chaincode-go/shim/internal/mock"
 	"github.com/fabric-creed/fabric-protos-go/common"
 	"github.com/fabric-creed/fabric-protos-go/ledger/queryresult"
 	peerpb "github.com/fabric-creed/fabric-protos-go/peer"

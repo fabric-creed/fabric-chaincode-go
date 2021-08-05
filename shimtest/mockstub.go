@@ -19,7 +19,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/timestamp"
-	"github.com/hyperledger/fabric-chaincode-go/shim"
+	"github.com/fabric-creed/fabric-chaincode-go/shim"
 	"github.com/fabric-creed/fabric-protos-go/ledger/queryresult"
 	pb "github.com/fabric-creed/fabric-protos-go/peer"
 )

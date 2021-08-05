@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-chaincode-go/pkg/cid"
+	"github.com/fabric-creed/fabric-chaincode-go/pkg/cid"
 	"github.com/fabric-creed/fabric-protos-go/msp"
 	"github.com/stretchr/testify/assert"
 )

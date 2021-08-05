@@ -1,4 +1,4 @@
-module github.com/hyperledger/fabric-chaincode-go
+module github.com/fabric-creed/fabric-chaincode-go
 
 go 1.12
 
