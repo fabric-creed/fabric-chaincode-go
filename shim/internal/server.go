@@ -9,9 +9,9 @@ import (
 	"net"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/keepalive"
+	"github.com/fabric-creed/grpc"
+	"github.com/fabric-creed/grpc/credentials"
+	"github.com/fabric-creed/grpc/keepalive"
 )
 
 const (

@@ -14,7 +14,7 @@ import (
 	"strconv"
 	"time"
 
-	"google.golang.org/grpc/keepalive"
+	"github.com/fabric-creed/grpc/keepalive"
 )
 
 // Config contains chaincode's configuration

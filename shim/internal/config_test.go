@@ -14,11 +14,11 @@ import (
 	"time"
 
 	. "github.com/hyperledger/fabric-chaincode-go/shim/internal"
-	peerpb "github.com/hyperledger/fabric-protos-go/peer"
+	peerpb "github.com/fabric-creed/fabric-protos-go/peer"
 	"github.com/stretchr/testify/assert"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/keepalive"
+	"github.com/fabric-creed/grpc"
+	"github.com/fabric-creed/grpc/credentials"
+	"github.com/fabric-creed/grpc/keepalive"
 )
 
 // TLS <key, cert, cacert> tuples for client and server were created

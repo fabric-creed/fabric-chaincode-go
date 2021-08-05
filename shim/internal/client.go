@@ -8,10 +8,10 @@ import (
 	"crypto/tls"
 	"time"
 
-	peerpb "github.com/hyperledger/fabric-protos-go/peer"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/keepalive"
+	peerpb "github.com/fabric-creed/fabric-protos-go/peer"
+	"github.com/fabric-creed/grpc"
+	"github.com/fabric-creed/grpc/credentials"
+	"github.com/fabric-creed/grpc/keepalive"
 )
 
 const (

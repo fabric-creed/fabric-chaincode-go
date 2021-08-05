@@ -14,7 +14,7 @@ import (
 	"github.com/hyperledger/fabric-chaincode-go/shim/internal"
 
 	"github.com/stretchr/testify/assert"
-	"google.golang.org/grpc/keepalive"
+	"github.com/fabric-creed/grpc/keepalive"
 )
 
 func TestBadServer(t *testing.T) {

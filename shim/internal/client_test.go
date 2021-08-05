@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	pb "github.com/fabric-creed/fabric-protos-go/peer"
 	"github.com/stretchr/testify/assert"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/keepalive"
+	"github.com/fabric-creed/grpc"
+	"github.com/fabric-creed/grpc/keepalive"
 )
 
 type testServer struct {
